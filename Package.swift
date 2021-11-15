@@ -21,17 +21,17 @@ let package = Package(
         .target(
             name: "MonadicJSON",
             dependencies: []),
-        .testTarget(
-            name: "MonadicJSON macOSTests",
-            dependencies: ["MonadicJSON", "SwiftCheck"],
-            path: "Tests"),
-        .testTarget(
-            name: "MonadicJSON iOSTests",
-            dependencies: ["MonadicJSON", "SwiftCheck"],
-            path: "Tests"),
-        .testTarget(
-            name: "MonadicJSON tvOSTests",
-            dependencies: ["MonadicJSON", "SwiftCheck"],
-            path: "Tests"),
+//        .testTarget(
+//            name: "MonadicJSON macOSTests",
+//            dependencies: ["MonadicJSON", "SwiftCheck"],
+//            path: "F"),
+//        .testTarget(
+//            name: "MonadicJSON iOSTests",
+//            dependencies: ["MonadicJSON", "SwiftCheck"],
+//            path: "FF"),
+//        .testTarget(
+//            name: "MonadicJSON tvOSTests",
+//            dependencies: ["MonadicJSON", "SwiftCheck"],
+//            path: "FFF"),
     ]
 )
